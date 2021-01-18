@@ -19,7 +19,7 @@ public class FlowLimitController {
     @GetMapping("/testA")
     public String testA() {
         try {
-            TimeUnit.MILLISECONDS.sleep(8000);
+//            TimeUnit.MILLISECONDS.sleep(8000);
         } catch(Exception e) {
             e.printStackTrace();
         }
